@@ -48,7 +48,7 @@ type Config struct {
 	// AuthInjector is an interface to obtain a JWT and secure transport for remote service calls
 	AuthInjector interfaces.AuthenticationInjector
 	// EnableNameFieldEscape indicates whether enables NameFieldEscape in this service
-	// The name field escape could allow the system to use special or Chinese characters in the different name fields, including device, profile, and so on.  If the EnableNameFieldEscape is false, some special characters might cause system error.
+	// The name field escape could allow the system to use special or Chinese characters in the different name fields, including node, profile, and so on.  If the EnableNameFieldEscape is false, some special characters might cause system error.
 	// TODO: remove in EdgeX 4.0
 	EnableNameFieldEscape bool
 }
